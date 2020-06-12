@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="39px" height="39px" viewBox="0 0 39 39" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>tic-tac-toe</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="TableTopCafe" transform="translate(-871.000000, -1023.000000)">
+            <g id="Group-5" transform="translate(871.000000, 1023.000000)">
+                <g id="tic-tac-toe">
+                    <g id="Duotone" transform="translate(1.600000, 1.600000)">
+                        <rect id="Rectangle" fill="#FFFFFF" fill-rule="nonzero" x="0.8" y="0.8" width="33.6" height="33.6"></rect>
+                        <rect id="Rectangle" fill="#CCE7FF" fill-rule="nonzero" transform="translate(28.686384, 28.800000) rotate(-45.000000) translate(-28.686384, -28.800000) " x="27.0064001" y="27.1200161" width="3.35996778" height="3.35996778"></rect>
+                        <rect id="Rectangle" fill="#CCE7FF" fill-rule="nonzero" transform="translate(6.286704, 6.400000) rotate(-45.000000) translate(-6.286704, -6.400000) " x="4.60672011" y="4.72001611" width="3.35996778" height="3.35996778"></rect>
+                        <line x1="0.8" y1="12" x2="34.4" y2="12" id="Path" stroke="#1078FF" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"></line>
+                        <line x1="0.8" y1="23.2" x2="34.4" y2="23.2" id="Path" stroke="#1078FF" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"></line>
+                        <line x1="23.2" y1="0.8" x2="23.2" y2="34.4" id="Path" stroke="#1078FF" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"></line>
+                        <line x1="12" y1="0.8" x2="12" y2="34.4" id="Path" stroke="#1078FF" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"></line>
+                        <rect id="Rectangle" stroke="#1078FF" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" x="0.8" y="0.8" width="33.6" height="33.6"></rect>
+                        <line x1="15.2" y1="15.2" x2="20" y2="20" id="Path" stroke="#1078FF" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"></line>
+                        <line x1="20" y1="15.2" x2="15.2" y2="20" id="Path" stroke="#1078FF" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"></line>
+                        <rect id="Rectangle" stroke="#1078FF" stroke-width="1.59998466" stroke-linecap="round" stroke-linejoin="round" transform="translate(28.686384, 28.800000) rotate(-45.000000) translate(-28.686384, -28.800000) " x="27.0064001" y="27.1200161" width="3.35996778" height="3.35996778"></rect>
+                        <rect id="Rectangle" stroke="#1078FF" stroke-width="1.59998466" stroke-linecap="round" stroke-linejoin="round" transform="translate(6.286704, 6.400000) rotate(-45.000000) translate(-6.286704, -6.400000) " x="4.60672011" y="4.72001611" width="3.35996778" height="3.35996778"></rect>
+                    </g>
+                    <g id="Frames-24px">
+                        <rect id="Rectangle" x="0" y="0" width="38.4" height="38.4"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

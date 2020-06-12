@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="33px" viewBox="0 0 16 33" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.1 (72631) - https://sketchapp.com -->
+    <title>Facebook</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="android" transform="translate(0.000000, -70.000000)" fill="#000000" fill-rule="nonzero">
+            <g id="facebook" transform="translate(0.000000, 70.000000)">
+                <path d="M10.1269439,32.6393459 L10.1269439,16.317762 L14.6324148,16.317762 L15.229487,10.6932538 L10.1269439,10.6932538 L10.1345986,7.87813333 C10.1345986,6.41117497 10.2739793,5.62514517 12.3809551,5.62514517 L15.1975921,5.62514517 L15.1975921,0 L10.6914833,0 C5.27892186,0 3.37384058,2.7284916 3.37384058,7.31695647 L3.37384058,10.6938908 L0,10.6938908 L0,16.318399 L3.37384058,16.318399 L3.37384058,32.6393459 L10.1269439,32.6393459 Z" id="Facebook"></path>
+            </g>
+        </g>
+    </g>
+</svg>

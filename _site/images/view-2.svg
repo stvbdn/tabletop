@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="39px" height="39px" viewBox="0 0 39 39" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>view-2</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="TableTopCafe" transform="translate(-873.000000, -1108.000000)">
+            <g id="Group-5" transform="translate(871.000000, 1023.000000)">
+                <g id="view-2" transform="translate(2.000000, 85.000000)">
+                    <g id="Duotone">
+                        <polygon id="Path" fill="#FFFFFF" fill-rule="nonzero" points="25.6 28 12 28 0.8 19.2 11.2 10.4 25.6 10.4 36 19.2"></polygon>
+                        <path d="M18.4,10.4 L10.4,16.8 L10.4,21.6 L18.4,28 L26.4,21.6 L26.4,16.8 L18.4,10.4 Z M18.4,22.4 L15.2,19.2 L18.4,16 L21.6,19.2 L18.4,22.4 Z" id="Shape" fill="#CCE7FF" fill-rule="nonzero"></path>
+                        <line x1="18.4" y1="5.6" x2="18.4" y2="0.8" id="Path" stroke="#1078FF" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"></line>
+                        <line x1="27.2" y1="6.4" x2="31.2" y2="2.4" id="Path" stroke="#1078FF" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"></line>
+                        <line x1="9.6" y1="6.4" x2="5.6" y2="2.4" id="Path" stroke="#1078FF" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"></line>
+                        <line x1="18.4" y1="32.8" x2="18.4" y2="37.6" id="Path" stroke="#1078FF" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"></line>
+                        <line x1="27.2" y1="32" x2="31.2" y2="36" id="Path" stroke="#1078FF" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"></line>
+                        <line x1="9.6" y1="32" x2="5.6" y2="36" id="Path" stroke="#1078FF" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"></line>
+                        <polygon id="Path" stroke="#1078FF" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" points="25.6 28 12 28 0.8 19.2 11.2 10.4 25.6 10.4 36 19.2"></polygon>
+                        <polygon id="Path" stroke="#1078FF" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" points="10.4 21.6 10.4 16.8 18.4 10.4 26.4 16.8 26.4 21.6 18.4 28"></polygon>
+                        <rect id="Rectangle" stroke="#1078FF" stroke-width="1.59998466" stroke-linecap="round" stroke-linejoin="round" transform="translate(18.399920, 19.199760) rotate(45.000000) translate(-18.399920, -19.199760) " x="16.1599415" y="16.9597815" width="4.47995704" height="4.47995704"></rect>
+                    </g>
+                    <g id="Frames-24px">
+                        <rect id="Rectangle" x="0" y="0" width="38.4" height="38.4"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

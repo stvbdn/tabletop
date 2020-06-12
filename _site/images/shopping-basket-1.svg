@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="39px" height="39px" viewBox="0 0 39 39" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>shopping-basket-1</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="TableTopCafe" transform="translate(-871.000000, -1195.000000)">
+            <g id="Group-5" transform="translate(871.000000, 1023.000000)">
+                <g id="shopping-basket-1" transform="translate(0.000000, 172.000000)">
+                    <g id="Duotone" transform="translate(0.000000, 1.600000)">
+                        <polygon id="Path" fill="#FFFFFF" fill-rule="nonzero" points="0.8 13.6 0.8 18.4 2.4 18.4 7.2 34.4 29.6 34.4 34.4 18.4 36 18.4 36 13.6"></polygon>
+                        <polygon id="Path" fill="#CCE7FF" fill-rule="nonzero" points="33.44 21.6 34.4 18.4 2.4 18.4 3.36 21.6"></polygon>
+                        <polygon id="Path" fill="#CCE7FF" fill-rule="nonzero" points="22.4 4 14.4 4 12.8 2.4 14.4 0.8 22.4 0.8 24 2.4"></polygon>
+                        <g id="Group" stroke="#1078FF" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6">
+                            <line x1="10.4" y1="22.4" x2="12.8" y2="30.4" id="Path"></line>
+                            <line x1="26.4" y1="22.4" x2="24" y2="30.4" id="Path"></line>
+                            <rect id="Rectangle" x="0.8" y="13.6" width="35.2" height="4.8"></rect>
+                            <polyline id="Path" points="24 2.4 28 2.4 34.4 13.6"></polyline>
+                            <polyline id="Path" points="12.8 2.4 8.8 2.4 2.4 13.6"></polyline>
+                            <line x1="18.4" y1="21.6" x2="18.4" y2="31.2" id="Path"></line>
+                            <polygon id="Path" points="34.4 18.4 2.4 18.4 7.2 34.4 29.6 34.4"></polygon>
+                            <polygon id="Path" points="22.4 4 14.4 4 12.8 2.4 14.4 0.8 22.4 0.8 24 2.4"></polygon>
+                        </g>
+                    </g>
+                    <g id="Frames-24px">
+                        <rect id="Rectangle" x="0" y="0" width="38.4" height="38.4"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
