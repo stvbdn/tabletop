@@ -3,6 +3,7 @@ body{
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     color: #2E2E2E;
     margin-left:50px;
+    margin-right:50px;
 }
 a{
     text-decoration: none;
@@ -49,8 +50,14 @@ label{
     float: right;
     padding-top: 40px;
 }
-.nav-items a{
+.nav-section {
+    display: inline;
+}
+.nav-section a{
     padding-right: 30px;
+}
+.nav-section a:last-child{
+    padding-right: 0px;
 }
 .blue{
     color:#2D78E0;
@@ -81,6 +88,8 @@ label{
 }
 .prices{
     max-width: 1504px;
+    margin: 0 auto;
+    max-width: 1504px;
     margin-bottom: 240px;
 }
 .hero-title{
@@ -95,8 +104,12 @@ label{
     font-weight: 300;
     letter-spacing: 0.1rem;
 }
+.hero-image-container{
+    flex-grow: 2;
+}
 .hero-image{
     max-width: 500px;
+    float: right;
 }
 .hero-actions{
     margin-top: 38px;
@@ -118,12 +131,25 @@ label{
     border-radius: 4px;
     box-shadow: none;
     border: 0px;
+
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+}
+.btn:hover{
+    box-shadow: 2px 2px 15px #888888;
+    transform: translateY(-2px);
 }
 .btn-secondary{
     display: inline-block;
     border-bottom: 2px solid #2D78E0;
     padding-bottom: 3px;
     text-transform: uppercase;
+    
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in;
+}
+.btn-secondary:hover{
+    padding-bottom: 8px;
 }
 .reservations{
     margin-right: 30px;
@@ -145,7 +171,7 @@ label{
     margin-bottom:8px;
 }
 .feature-image{
-    float:left;
+    float: left;
 }
 .features{
     justify-content: space-between;
@@ -173,11 +199,14 @@ label{
     color: #636363;
     padding-left: 5px;
 }
+.contact{
+    /* max-width: 900px; */
+}
 .contact-form{
     margin-top:50px;
     padding: 57px;
     max-width: 550px;
-    margin-left: -500px;
+    /* margin-left: -500px; */
     z-index: 2;
     background-color: #FFFFFF;
 }
@@ -203,7 +232,7 @@ input{
     margin-bottom: 15px;
 }
 input[type=text]{
-    border: 0.5px solid #D5D5D5;
+    border: 0.5px solid #d5d5d5;
     height: 30px;
     border-radius: 4px;
     border-color: #D5D5D5;
@@ -219,8 +248,14 @@ textarea{
     border-color: #D5D5D5;
     margin-bottom: 30px;
 }
+.map{
+    max-width: 500px;
+}
 .social{
     display: inline;
+}
+footer{
+    margin-top: 50px;
 }
 .footer-nav{
     display: inline;
@@ -232,10 +267,63 @@ textarea{
 .vl {
   border-left: 1px solid#D8D8D8;
   height: 20px;
-  padding-right: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  display: inline;
 }
+
 @media only screen and (max-width: 600px) {
   col {
     margin-bottom: 50px;
   }
+}
+
+/* The side navigation menu */
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: #2D78E0; Black
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
 }

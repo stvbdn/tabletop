@@ -41,28 +41,47 @@
   <div class="header">
   <img class="logo" src="/images/logo.jpg" alt="">
   <div class='nav-items'>
+    <div class='nav-section'>
+      <a href='#'>About Us</a>
+      <a href='#'>Pricing</a>
+      <a href='#'>Contact Us</a>
+    </div>
+    <span class="vl"></span>
+    <div class='nav-section'>
+      <a class="blue" href='#'>Reservations<img src="/images/external-arrow.svg" alt=""></a>
+      <a class="blue" href='#'>Shop Online<img src="/images/external-arrow.svg" alt=""></a>
+    </div>
+  </div>
+</div>
+  <span onclick="openNav()">open</span>
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class='nav-items'>
     <a href='#'>About Us</a>
     <a href='#'>Pricing</a>
     <a href='#'>Contact Us</a>
-    <span class="vl"></span>
-    <a class="blue" href='#'>Reservations<img src="/images/external-arrow.svg" alt=""></a>
-    <a class="blue" href='#'>Shop Online<img src="/images/external-arrow.svg" alt=""></a>
+    <a class="" href='#'>Reservations<img src="/images/external-arrow.svg" alt=""></a>
+    <a class="" href='#'>Shop Online<img src="/images/external-arrow.svg" alt=""></a>
   </div>
 </div>
-  <div class="hero">
+
+
+<div class="hero">
   <div class='row reverse center'>
     <div class='col'>
       <div class='hero-info'>
         <h1 class="hero-title">You're favourite <span class="blue">coffee shop</span></h1>
         <p class="hero-content">Tabletop cafe is special blend of cofee shop, board game library and retail store.</p>
         <div class='hero-actions'>
-          <a class="btn reservations">Make a reservation</a>
-          <a class="btn-secondary">Shop online</a>
+          <a href="#" class="btn reservations">Make a reservation</a>
+          <a href="#" class="btn-secondary">Shop online</a>
         </div>
       </div>
     </div>
     <div class='col'>
-      <img class='hero-image' src="/images/hero.jpg" alt="">
+      <div class="hero-image-container">
+        <img class='hero-image' src="/images/hero.jpg" alt="">
+      </div>
     </div>
   </div>
 </div>
@@ -122,7 +141,7 @@
   <div class="row reverse space-around">
     <div class="col">
       <div class="map">
-        <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="800" id="gmap_canvas" src="https://maps.google.com/maps?q=tabletop%20cafe&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net/blog/nordvpn-coupon-code/"></a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div>
+        <div class="mapouter"><div class="gmap_canvas"><iframe width="1200" height="1600" id="gmap_canvas" src="https://maps.google.com/maps?q=tabletop%20cafe&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net/blog/nordvpn-coupon-code/"></a></div><style>.mapouter{position:relative;text-align:right;height:1000px;width:1000px;}.gmap_canvas {overflow:hidden;background:none!important;height:1000px;width:1000px;}</style></div>
       </div>
     </div>
     <div class="col">
@@ -158,15 +177,33 @@
     <img src="/images/instagram.svg" alt="instagram">
   </div>
   <div class="footer-nav">
-    <a>About Us</a>
-    <a>Pricing</a>
-    <a>Contact Us</a>
+    <div class="nav-section">
+      <a>About Us</a>
+      <a>Pricing</a>
+      <a>Contact Us</a>
+    </div>
     <span class="vl"></span>
-    <a class="blue">Reservations <img src="/images/external-arrow.svg" alt=""></a>
-    <a class="blue">Shop Online <img src="/images/external-arrow.svg" alt=""></a>
+    <div class="nav-section">
+      <a class="blue">Reservations <img src="/images/external-arrow.svg" alt=""></a>
+      <a class="blue">Shop Online <img src="/images/external-arrow.svg" alt=""></a>
+    </div>
   </div>
 </footer>
   </div>
 </body>
+
+<script>
+  /* Set the width of the side navigation to 250px and the left margin of the page content to 250px */
+  function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+  }
+  
+  /* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft = "0";
+  }
+</script>
 
 </html>
