@@ -2,7 +2,7 @@
 title:              Tabletop Cafe
 email:              hello@tabletopcafe.com
 description:        "Edmonton's premiere boardgame cafe."
-url:                "http://tabletopcafe.com/"
+url:                "https://tabletopcafe.com/"
 # baseurl:            /main
 baseurl: "/"
 
@@ -12,12 +12,6 @@ baseurl: "/"
 # Build settings
 markdown:           kramdown
 permalink:          pretty
-
-# Collection definitions and settings
-collections:
-  projects:
-    output: true
-    permalink: /projects/:path/
 
 # Sass
 # sass:
