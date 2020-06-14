@@ -42,7 +42,11 @@
   <div class="container">
   <div class="header">
   <img class="logo" src="/images/logo.jpg" alt="">
-  <div class='nav-items'>
+
+  <a class="menu-toggle" onclick="openMenu()">
+    <svg height='40px' width='40px'  fill="#2E2E2E" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" x="0px" y="0px"><title>menu, hamburger, interface, line, navigation</title><g data-name="31"><path d="M15.5,4H.5a.5.5,0,0,1,0-1h15a.5.5,0,0,1,0,1Z"></path><path d="M15.5,9H.5a.5.5,0,0,1,0-1h15a.5.5,0,0,1,0,1Z"></path><path d="M15.5,14H.5a.5.5,0,0,1,0-1h15a.5.5,0,0,1,0,1Z"></path></g></svg>
+  </a>
+  <div id="nav-menu" class='nav-items'>
     <div class='nav-section'>
       <a href='#'>About Us</a>
       <a href='#'>Pricing</a>
@@ -53,10 +57,30 @@
       <a class="blue" href='#'>Reservations<img src="/images/external-arrow.svg" alt=""></a>
       <a class="blue" href='#'>Shop Online<img src="/images/external-arrow.svg" alt=""></a>
     </div>
-  </div>
+  </div>  
 </div>
-  <div class="hero">
-  <div class='row reverse center'>
+  <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">Clients</a>
+  <a href="#">Contact</a>
+</div>
+
+
+<div class="hero">
+  <div class='hero-info'>
+    <h1 class="hero-title">You're favourite <span class="blue">coffee shop</span></h1>
+    <p class="hero-content">Tabletop cafe is special blend of cofee shop, board game library and retail store.</p>
+    <div class='hero-actions'>
+      <a href="#" class="btn reservations">Make a reservation</a>
+      <a href="#" class="btn-secondary">Shop online</a>
+    </div>
+  </div>
+  <div class="hero-image-container">
+    <img class='hero-image' src="/images/hero.jpg" alt="">
+  </div>
+  <!-- <div class='row reverse center'>
     <div class='col'>
       <div class='hero-info'>
         <h1 class="hero-title">You're favourite <span class="blue">coffee shop</span></h1>
@@ -72,7 +96,7 @@
         <img class='hero-image' src="/images/hero.jpg" alt="">
       </div>
     </div>
-  </div>
+  </div> -->
 </div>
 
 <div class="about">
@@ -130,7 +154,9 @@
   <div class="row reverse space-around">
     <div class="col">
       <div class="map">
-        <div class="mapouter"><div class="gmap_canvas"><iframe width="1200" height="1600" id="gmap_canvas" src="https://maps.google.com/maps?q=tabletop%20cafe&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net/blog/nordvpn-coupon-code/"></a></div><style>.mapouter{position:relative;text-align:right;height:1000px;width:1000px;}.gmap_canvas {overflow:hidden;background:none!important;height:1000px;width:1000px;}</style></div>
+        <iframe width="600" height="450" frameborder="0" style="border:0"
+          src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJH_Isbe0YoFMRrlJ4-zvuhV4&key=AIzaSyA-J6GMai1cJ2Opjrjd-WulXe01AmUMEFc"
+          allowfullscreen></iframe>
       </div>
     </div>
     <div class="col">
@@ -157,6 +183,7 @@
         </form>
       </div>
     </div>
+
   </div>
 </div>
   <footer>
@@ -206,7 +233,7 @@
   </div>
 </footer>
   </div>
-  
+
   <script>
     if (window.netlifyIdentity) {
       window.netlifyIdentity.on("init", user => {
@@ -219,5 +246,32 @@
     }
   </script>
 </body>
+
+<script>
+  /* Set the width of the side navigation to 250px and the left margin of the page content to 250px */
+  function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+  }
+
+  /* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft = "0";
+  }
+
+  function openMenu() {
+    var height = document.getElementById("nav-menu").style.maxHeight
+    console.log(height)
+    if(height == "0px" || height == null || height == ""){
+      document.getElementById("nav-menu").style.maxHeight = "100%";
+      document.getElementById("nav-menu").style.display = "block";
+    }
+    else{
+      document.getElementById("nav-menu").style.maxHeight = "0px";
+      document.getElementById("nav-menu").style.display = "none";
+    }
+  }
+</script>
 
 </html>

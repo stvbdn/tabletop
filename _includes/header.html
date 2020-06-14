@@ -1,6 +1,10 @@
 <div class="header">
   <img class="logo" src="{{ 'images/logo.jpg' | relative_url }}" alt="">
-  <div class='nav-items'>
+
+  <a class="menu-toggle" onclick="openMenu()">
+    <svg height='40px' width='40px'  fill="#2E2E2E" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" x="0px" y="0px"><title>menu, hamburger, interface, line, navigation</title><g data-name="31"><path d="M15.5,4H.5a.5.5,0,0,1,0-1h15a.5.5,0,0,1,0,1Z"></path><path d="M15.5,9H.5a.5.5,0,0,1,0-1h15a.5.5,0,0,1,0,1Z"></path><path d="M15.5,14H.5a.5.5,0,0,1,0-1h15a.5.5,0,0,1,0,1Z"></path></g></svg>
+  </a>
+  <div id="nav-menu" class='nav-items'>
     <div class='nav-section'>
       <a href='#'>About Us</a>
       <a href='#'>Pricing</a>
@@ -11,5 +15,5 @@
       <a class="blue" href='#'>Reservations<img src="{{ 'images/external-arrow.svg' | relative_url }}" alt=""></a>
       <a class="blue" href='#'>Shop Online<img src="{{ 'images/external-arrow.svg' | relative_url }}" alt=""></a>
     </div>
-  </div>
+  </div>  
 </div>

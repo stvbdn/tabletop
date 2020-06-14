@@ -2,8 +2,8 @@ body{
     background-color:#FFFFFF;
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     color: #2E2E2E;
-    margin-left:50px;
-    margin-right:50px;
+    /* margin-left:50px;
+    margin-right:50px; */
 }
 a{
     text-decoration: none;
@@ -29,6 +29,7 @@ label{
     flex-direction: column;
     flex-wrap: wrap;
     flex-grow: 1;
+    margin-bottom: 50px;
     /* align-items: center; */
 }
 .space-between{
@@ -72,14 +73,17 @@ label{
     margin: 0 auto;
     max-width: 1504px;
     margin-bottom: 200px;
-    
+
+    margin-left:50px;
+    margin-right:50px;
 }
 .about{
     display: flex;
     margin: 0 auto;
     max-width: 1504px;
     margin-bottom: 200px;
-    
+    margin-left:50px;
+    margin-right:50px;
 }
 .contact{
     max-width: 1504px;
@@ -91,6 +95,8 @@ label{
     margin: 0 auto;
     max-width: 1504px;
     margin-bottom: 240px;
+    margin-left:50px;
+    margin-right:50px;
 }
 .hero-title{
     margin-top: 0px;
@@ -106,9 +112,18 @@ label{
 }
 .hero-image-container{
     flex-grow: 2;
+    max-height: 800px;
+    margin-left: 50px;
+}
+.hero-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
 }
 .hero-image{
-    max-width: 500px;
+    object-fit: contain;
+    max-height: 800px;
     float: right;
 }
 .hero-actions{
@@ -206,7 +221,7 @@ label{
     margin-top:50px;
     padding: 57px;
     max-width: 550px;
-    /* margin-left: -500px; */
+    margin-left: -100px;
     z-index: 2;
     background-color: #FFFFFF;
 }
@@ -249,7 +264,7 @@ textarea{
     margin-bottom: 30px;
 }
 .map{
-    max-width: 500px;
+    /* max-width: 500px; */
 }
 .social{
     display: inline;
@@ -275,12 +290,163 @@ footer{
   margin-left: 20px;
   display: inline;
 }
-g{
+.social g{
     fill: #2D78E0;
 }
+iframe{
+    width:100%;
+    height:850px;
+}
+.menu-toggle {
+  display: none;
+  float: right;
+  margin-right: 25px;
+  margin-top: 30px;
+}
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 900px) {
   .col {
     margin-bottom: 50px;
   }
+  iframe{
+    width:100%;
+    height:400px;
+  }
+  .contact-form{
+      margin-left: 0px;
+  }
+  .menu-toggle {
+    position:relative;
+    cursor:pointer;
+    display: block;
+  }
+  .nav-items{
+      display: block;
+      align-items: center;
+      width: 100%;
+      margin: 0 auto;
+      background-color: #2D78E0;
+      /* padding-top: 20px;
+      padding-bottom: 20px; */
+      padding-top: 0px;
+      float: none;
+      display: none;
+  }
+  .vl{
+    display: none;
+  }
+  .nav-items a{
+      display: block;
+      width: 100%;
+      margin: 0 auto;
+      text-align: center;
+      color: #FFFFFF;
+      /* padding-top: 10px;
+      padding-bottom: 10px; */
+      font-size: 22px;
+      margin-top: 25px;
+  }
+  .logo{
+      display: inline-block;
+  }
+  #nav-menu {
+    /* display: block; */
+    max-height: 0;
+    
+    transition: max-height .5s;
+    /* transition-duration: 0.2s; */
+    transition-timing-function: ease-in-out;
+  }
+  .hero{
+    flex-wrap: wrap;
+    max-width: 1504px;
+    margin-bottom: 200px;
+    margin-left: 0px;
+    margin-right: 0px;
+    /* margin-left: 50px;
+    margin-right: 50px; */
+  }
+  .hero-image{
+    float: none;    
+  }
+  .hero-image-container{
+    max-height: 300px;
+    margin-left: 0px;
+    margin-bottom: 50px;
+    order: -1;
+    flex: none;
+    overflow: hidden;
+    max-width: -webkit-fill-available;
+  }
+  .hero-info{
+      margin-left: 50px;
+      flex-shrink: 1;
+  }
+  .footer-nav{
+      display: none;
+  }
+  .social{
+      text-align: center;
+      display: block;
+  }
+  .social svg{
+      margin-left: 30px; 
+      max-height: 25px;
+      max-width: 30px;
+  }
+  footer{
+      margin-bottom: 50px;
+  }
+}
+
+
+
+/* The side navigation menu */
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
 }
