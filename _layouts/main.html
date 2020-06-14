@@ -24,6 +24,17 @@
 </body>
 
 <script>
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+          e.preventDefault();
+
+          document.querySelector(this.getAttribute('href')).scrollIntoView({
+              behavior: 'smooth'
+          });
+      });
+  });
+
+  
   /* Set the width of the side navigation to 250px and the left margin of the page content to 250px */
   function openNav() {
     document.getElementById("mySidenav").style.width = "250px";

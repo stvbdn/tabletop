@@ -48,9 +48,9 @@
   </a>
   <div id="nav-menu" class='nav-items'>
     <div class='nav-section'>
-      <a href='#'>About Us</a>
-      <a href='#'>Pricing</a>
-      <a href='#'>Contact Us</a>
+      <a href='#about'>About Us</a>
+      <a href='#prices'>Pricing</a>
+      <a href='#contact'>Contact Us</a>
     </div>
     <span class="vl"></span>
     <div class='nav-section'>
@@ -99,7 +99,7 @@
   </div> -->
 </div>
 
-<div class="about">
+<div class="about" id="about">
   <div class="row">
     <div class="col">
       <div class="about-wrapper">
@@ -135,7 +135,7 @@
 </div>
 
 
-<div class="prices">
+<div class="prices" id="prices">
   <div class="row space-around center">
     <div class="col">
       <h2 class="section-heading">Pricing</h2>
@@ -150,7 +150,7 @@
 </div>
 
 
-<div class="contact">
+<div class="contact" id="contact">
   <div class="row reverse space-around">
     <div class="col">
       <div class="map">
@@ -221,9 +221,9 @@
   </div>
   <div class="footer-nav">
     <div class="nav-section">
-      <a>About Us</a>
-      <a>Pricing</a>
-      <a>Contact Us</a>
+      <a href="#about">About Us</a>
+      <a href="#prices">Pricing</a>
+      <a href="#contact">Contact Us</a>
     </div>
     <span class="vl"></span>
     <div class="nav-section">
@@ -248,6 +248,17 @@
 </body>
 
 <script>
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+          e.preventDefault();
+
+          document.querySelector(this.getAttribute('href')).scrollIntoView({
+              behavior: 'smooth'
+          });
+      });
+  });
+
+  
   /* Set the width of the side navigation to 250px and the left margin of the page content to 250px */
   function openNav() {
     document.getElementById("mySidenav").style.width = "250px";

@@ -151,7 +151,7 @@ label{
     transition-timing-function: ease-in-out;
 }
 .btn:hover{
-    box-shadow: 2px 2px 15px #888888;
+    box-shadow: 2px 2px 15px #eaeaea;
     transform: translateY(-2px);
 }
 .btn-secondary{
@@ -262,6 +262,9 @@ textarea{
     width: 100%;
     border-color: #D5D5D5;
     margin-bottom: 30px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
 .map{
     /* max-width: 500px; */
@@ -272,9 +275,16 @@ textarea{
 .social svg{
     max-height: 18px;
     max-width: 20px;
+    margin-left: 20px;
+}
+.social svg:first-child{
+    margin-left: 0px;
 }
 footer{
+    max-width: 1504px;
     margin-top: 50px;
+    margin: 0 auto;
+    margin-bottom: 20px;
 }
 .footer-nav{
     display: inline;
@@ -434,6 +444,7 @@ input {
       margin-left: 0px; 
   }
   footer{
+      margin-top: 50px;
       margin-bottom: 50px;
   }
 }
