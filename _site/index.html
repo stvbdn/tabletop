@@ -36,6 +36,8 @@
   <link rel="stylesheet" href="/assets/css/main.css">
   <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Raleway:400&display=swap" rel="stylesheet">
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   </head>
 
 <body>
@@ -69,7 +71,7 @@
 
 
 <div class="hero">
-  <div class='hero-info'>
+  <div class='hero-info' data-aos="fade-up">
     <h1 class="hero-title">You're favourite <span class="blue">coffee shop</span></h1>
     <p class="hero-content">Tabletop cafe is special blend of cofee shop, board game library and retail store.</p>
     <div class='hero-actions'>
@@ -78,7 +80,7 @@
     </div>
   </div>
   <div class="hero-image-container">
-    <img class='hero-image' src="/images/hero.jpg" alt="">
+    <img class='hero-image' src="/images/hero.jpg" alt="" data-aos="fade">
   </div>
   <!-- <div class='row reverse center'>
     <div class='col'>
@@ -99,7 +101,8 @@
   </div> -->
 </div>
 
-<div class="about" id="about">
+<span id="about"></span>
+<div class="about" data-aos="fade-up" data-aos-anchor-placement="top">
   <div class="row">
     <div class="col">
       <div class="about-wrapper">
@@ -134,8 +137,8 @@
   </div>
 </div>
 
-
-<div class="prices" id="prices">
+<span id="prices"></span>
+<div class="prices" data-aos="fade-up">
   <div class="row space-around center">
     <div class="col">
       <h2 class="section-heading">Pricing</h2>
@@ -149,8 +152,8 @@
   </div>
 </div>
 
-
-<div class="contact" id="contact">
+<span id="contact"></span>
+<div class="contact" data-aos="fade-up">
   <div class="row reverse space-around">
     <div class="col">
       <div class="map">
@@ -247,6 +250,9 @@
   </script>
 </body>
 
+<script>
+  AOS.init();
+</script>
 <script>
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
       anchor.addEventListener('click', function (e) {
