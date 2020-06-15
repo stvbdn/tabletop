@@ -50,6 +50,7 @@ label{
 .nav-items{
     float: right;
     padding-top: 40px;
+    padding-bottom: 40px;
 }
 .nav-section {
     display: inline;
@@ -207,6 +208,7 @@ label{
     font-size: 36px;
     font-weight: 700;
     color: #2D78E0;
+    margin-bottom: 30px;
 }
 .price-unit{
     font-size: 14px;
@@ -318,8 +320,64 @@ input {
   -moz-appearance: none;
   appearance: none;
 }
+.day{
+    display: inline-block;
+    width: 300px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #2E2E2E;
+}
+.time{
+    font-size: 18px;
+}
+.no-margin{
+    margin: 0px !important;
+}
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 840px) {
+    .nav-items{
+        display: block;
+        align-items: center;
+        width: 100%;
+        margin: 0 auto;
+        background-color: #2D78E0;
+        /* padding-top: 20px;
+        padding-bottom: 20px; */
+        padding-top: 0px;
+        float: none;
+        display: none;
+    }
+    .vl{
+      display: none;
+    }
+    .nav-items a{
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        color: #FFFFFF;
+        /* padding-top: 10px;
+        padding-bottom: 10px; */
+        font-size: 22px;
+        margin-top: 25px;
+    }
+    .menu-toggle {
+        position:relative;
+        cursor:pointer;
+        display: block;
+    }
+    #nav-menu {
+      /* display: block; */
+      max-height: 0;
+      padding-top:20px;
+      padding-bottom:20px;
+      transition: max-height .5s;
+      /* transition-duration: 0.2s; */
+      transition-timing-function: ease-in-out;
+    }
+}
+
+@media only screen and (max-width: 700px) {
   .col {
     margin-bottom: 0px;
   }
@@ -376,7 +434,8 @@ input {
   #nav-menu {
     /* display: block; */
     max-height: 0;
-    
+    padding-top:20px;
+    padding-bottom:20px;
     transition: max-height .5s;
     /* transition-duration: 0.2s; */
     transition-timing-function: ease-in-out;
@@ -395,7 +454,8 @@ input {
    font-size: 52px;   
   }
   .hero-image{
-    float: none;    
+    float: none;
+    max-width: 400px
   }
   .hero-image-container{
     max-height: 300px;
@@ -446,6 +506,9 @@ input {
   footer{
       margin-top: 50px;
       margin-bottom: 50px;
+  }
+  .hour-section{
+    margin-bottom: 10px;
   }
 }
 

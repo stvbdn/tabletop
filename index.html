@@ -1,5 +1,23 @@
 ---
 layout: main
+# Hero
+hero_title: "Edmonton's best <span class='blue'>boardgame cafe</span>"
+hero_content: "Tabletop cafe is special blend of coffee shop, board game library and retail store."
+
+# About
+about_title: "The perfect place to come together and get your game on"
+about_content: "Whether you're bringing a group of friends or just looking to drop in and play some games, our space provides a fun and
+casual atmosphere that accomodates seasoned gamers and newcomers alike."
+
+about_feature_1: "Full Library of Games"
+about_feature_1_content: "With over 100+ board games to choose from, we have something to please everyone."
+about_feature_2: "Games For Sale"
+about_feature_2_content: "Want to continue your adventure at home? We have a wide selection of games for sale."
+about_feature_3: "Food & Drink"
+about_feature_3_content: "We've got a full menu of food and drink so the only thing you'll have to worry about is your next game move."
+
+price: $24.00
+
 ---
 
 <div id="mySidenav" class="sidenav">
@@ -13,11 +31,11 @@ layout: main
 
 <div class="hero">
   <div class='hero-info' data-aos="fade-up">
-    <h1 class="hero-title">You're favourite <span class="blue">coffee shop</span></h1>
-    <p class="hero-content">Tabletop cafe is special blend of cofee shop, board game library and retail store.</p>
+    <h1 class="hero-title">{{ page.hero_title }}</h1>
+    <p class="hero-content">{{ page.hero_content }}</p>
     <div class='hero-actions'>
       <a href="#" class="btn reservations">Make a reservation</a>
-      <a href="#" class="btn-secondary">Shop online</a>
+      <a href="https://store.tabletopcafe.ca" class="btn-secondary">Shop online</a>
     </div>
   </div>
   <div class="hero-image-container">
@@ -48,30 +66,30 @@ layout: main
     <div class="col">
       <div class="about-wrapper">
         <h2 class="section-heading">About us</h2>
-        <h3 class="section-title">Perfect place to come together with friends</h3>
-        <p>Some information about what tabletop is and what it does and how a tabletop game cafe works.</p>
+        <h3 class="section-title">{{ page.about_title }}</h3>
+        <p>{{ page.about_content }}</p>
       </div>
     </div>
     <div class="col space-between">
       <div class="feature">
         <img class='feature-image' src="{{ 'images/tic-tac-toe.svg' | relative_url }}" alt="">
         <div>
-          <h1 class="feature-title">Play Games</h1>
-          <p>Come and play with your friends or make some friends and join a game.</p>
+          <h1 class="feature-title">{{ page.about_feature_1 }}</h1>
+          <p>{{ page.about_feature_1_content }}</p>
         </div>
       </div>
       <div class="feature">
         <img class='feature-image' src="{{ 'images/view-2.svg' | relative_url }}" alt="">
         <div>
-          <h1 class="feature-title">Browse Games</h1>
-          <p>Come and try one of our 100 boardgames.</p>
+          <h1 class="feature-title">{{ page.about_feature_2 }}</h1>
+          <p>{{ page.about_feature_2_content }}</p>
         </div>
       </div>
       <div class="feature">
         <img class='feature-image' src="{{ 'images/shopping-basket-1.svg' | relative_url }}" alt="">
         <div>
-        <h1 class="feature-title">Buy Games</h1>
-        <p>Want to continue your adventure at home? We have a wide selection for sale.</p>
+        <h1 class="feature-title">{{ page.about_feature_3 }}</h1>
+        <p>{{ page.about_feature_3_content }}</p>
         </div>
       </div>
     </div>
@@ -82,14 +100,23 @@ layout: main
 <div class="prices" data-aos="fade-up">
   <div class="row space-around center">
     <div class="col">
-      <h2 class="section-heading">Pricing</h2>
+      <h2 class="section-heading">Pricing & Hours</h2>
       <h3 class="section-title">Pay by the hour</h3>
     </div>
     <div class="col">
       <span class="price">
-        $24.00<span class='price-unit'>per hour</span>
+        {{ page.price }}<span class='price-unit'>per hour</span>
       </span>
     </div>
+  </div>
+
+  <div class="hours">
+    <!-- <h3>Hours of operation</h3> -->
+  
+    <p class='hour-section'><span class='day'>Monday-Thursday:</span><span class="time">9:00AM - 9:00PM</span></p>
+    <p class='hour-section'><span class='day'>Friday:</span><span class="time">9:00AM - 9:00PM</span></p>
+    <p class='hour-section'><span class='day'>Saturday:</span><span class="time">9:00AM - 9:00PM</span></p>
+    <p class='hour-section'><span class='day'>Sunday:</span><span class="time">9:00AM - 9:00PM</span></p>
   </div>
 </div>
 
@@ -105,7 +132,7 @@ layout: main
     </div>
     <div class="col">
       <div class='contact-form'>
-        <form action="" method="POST">
+        <form action="https://getform.io/f/e64332e1-17cc-413c-8fe8-1085d7f35e7d" method="POST">
           <h1 class="section-heading">Contact us</h1>
           <h1 class="section-title">We're here to help</h1>
           <div class="contact-info">
