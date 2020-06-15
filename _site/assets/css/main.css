@@ -68,6 +68,8 @@ label{
     padding-top: 30px;
     margin: 0 auto;
     max-width: 1504px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 .hero{
     display: flex;
@@ -334,7 +336,7 @@ input {
     margin: 0px !important;
 }
 
-@media only screen and (max-width: 840px) {
+@media only screen and (max-width: 920px) {
     .nav-items{
         display: block;
         align-items: center;
@@ -378,6 +380,13 @@ input {
 }
 
 @media only screen and (max-width: 700px) {
+  .header{
+    padding-top: 30px;
+    margin: 0 auto;
+    max-width: 1504px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
   .col {
     margin-bottom: 0px;
   }
