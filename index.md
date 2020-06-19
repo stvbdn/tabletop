@@ -2,21 +2,21 @@
 layout: main
 # Hero
 hero_title: "Edmonton's best <span class='blue'>boardgame cafe</span>"
-hero_content: "Tabletop cafe is special blend of coffee shop, board game library and retail store."
+hero_content: "Table Top cafe is special blend of coffee shop, board game library and retail store."
 
 # About
 about_title: "The perfect place to come together and get your game on"
-about_content: "Whether you're bringing a group of friends or just looking to drop in and play some games, our space provides a fun and
-casual atmosphere that accomodates seasoned gamers and newcomers alike."
+about_content: "One flat rate lets you play as many games as you like. Our staff on hand can help you pick the right game for your group and teach you how to play it. Many of the games are also available for sale giving you an excellent try-it-before-you-buy-it experience. The store is a comfortable place where people can meet with friends, play a game, share a drink, and connect face to face.
+"
 
-about_feature_1: "Full Library of Games"
-about_feature_1_content: "With over 100+ board games to choose from, we have something to please everyone."
+about_feature_1: "500+ Board Games"
+about_feature_1_content: "With everything from games for kids, to intense thematics and games with adult themes, our staff can help you choose the right game for your group and even teach a wide range of games to get you playing quickly."
 about_feature_2: "Games For Sale"
-about_feature_2_content: "Want to continue your adventure at home? We have a wide selection of games for sale."
+about_feature_2_content: "If you like the game you are playing, there is a good chance we also have it for sale in our retail section and you can take it home with you right then!"
 about_feature_3: "Food & Drink"
-about_feature_3_content: "We've got a full menu of food and drink so the only thing you'll have to worry about is your next game move."
+about_feature_3_content: "There are plenty of made in house food and snacks available (including Edmonton's best carrot cake) as well as a wide range of espresso drinks and craft beer."
 
-price: $24.00
+price: $10.00*
 
 ---
 
@@ -98,25 +98,26 @@ price: $24.00
 
 <span id="prices"></span>
 <div class="prices" data-aos="fade-up">
-  <h2 class="section-heading">Pricing & Hours</h2>
+  <h2 class="section-heading">Pricing</h2>
   <div class="row space-around center">
     <div class="col">
-      <h3 class="section-title">Pay by the hour</h3>
+      <h3 class="section-title">Flex pricing</h3>
+      <p class="pricing-description">You can play as many board games as you like for as long as you want. We run tabs for each individual so you don't have to pay until you leave, all we need is your name to get you going.</p>
     </div>
     <div class="col">
       <span class="price">
-        {{ page.price }}<span class='price-unit'>per hour</span>
+        {{ page.price }}<span class='price-unit'>per person</span>
+        <p class="pricing-notes">For every item purchased from the kitchen or store your fee is reduced by $1.</p>
       </span>
     </div>
   </div>
 
   <div class="hours">
-    <!-- <h3>Hours of operation</h3> -->
-  
-    <p class='hour-section'><span class='day'>Monday-Thursday:</span><span class="time">9:00AM - 9:00PM</span></p>
-    <p class='hour-section'><span class='day'>Friday:</span><span class="time">9:00AM - 9:00PM</span></p>
-    <p class='hour-section'><span class='day'>Saturday:</span><span class="time">9:00AM - 9:00PM</span></p>
-    <p class='hour-section'><span class='day'>Sunday:</span><span class="time">9:00AM - 9:00PM</span></p>
+    <h2 class="section-heading">Hours of Operation</h2>
+    <p class='hour-section'><span class='day'>Monday-Thursday:</span><span class="time">12:00PM - 11:00PM</span></p>
+    <p class='hour-section'><span class='day'>Friday:</span><span class="time">12:00PM - 1:00AM</span></p>
+    <p class='hour-section'><span class='day'>Saturday:</span><span class="time">11:00AM - 1:00AM</span></p>
+    <p class='hour-section'><span class='day'>Sunday:</span><span class="time">11:00AM - 11:00PM</span></p>
   </div>
 </div>
 
