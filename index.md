@@ -13,7 +13,7 @@ about_feature_1: 500+ Board Games
 about_feature_1_content: With everything from games for kids, to intense thematics
   and games with adult themes, our staff can help you choose the right game for your
   group and even teach a wide range of games to get you playing quickly.
-about_feature_2: Games For Sale2
+about_feature_2: Games For Sale
 about_feature_2_content: If you like the game you are playing, there is a good chance
   we also have it for sale in our retail section and you can take it home with you
   right then!
