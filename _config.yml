@@ -1,19 +1,16 @@
-# Site settings
-title:              Table Top Cafe
-email:              hello@tabletopcafe.com
-description:        "Edmonton's premiere boardgame cafe."
-url:                "https://tabletopcafe.com/"
-# baseurl:            /main
+---
+title: Table Top Cafe
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+email: hello@tabletopcafe.com
+description: Edmonton's premiere boardgame cafe.
+url: https://tabletopcafe.com/
 baseurl: "/"
-
-# File structure settings
-#image_path:         /public/images
-
-# Build settings
-markdown:           kramdown
-permalink:          pretty
-
-# Sass
-# sass:
-#   sass_dir:          _scss
-#   style:            :compressed
+markdown: kramdown
+permalink: pretty

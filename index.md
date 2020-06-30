@@ -1,25 +1,28 @@
 ---
+title: Home
+hero_title: Edmonton's best <span class='blue'>boardgame cafe</span>
+hero_content: Table Top cafe is special blend of coffee shop, board game library and
+  retail store.
+about_title: The perfect place to come together and get your game on
+about_content: 'One flat rate lets you play as many games as you like. Our staff on
+  hand can help you pick the right game for your group and teach you how to play it.
+  Many of the games are also available for sale giving you an excellent try-it-before-you-buy-it
+  experience. The store is a comfortable place where people can meet with friends,
+  play a game, share a drink, and connect face to face. '
+about_feature_1: 500+ Board Games
+about_feature_1_content: With everything from games for kids, to intense thematics
+  and games with adult themes, our staff can help you choose the right game for your
+  group and even teach a wide range of games to get you playing quickly.
+about_feature_2: Games For Sale
+about_feature_2_content: If you like the game you are playing, there is a good chance
+  we also have it for sale in our retail section and you can take it home with you
+  right then!
+about_feature_3: Food & Drink
+about_feature_3_content: There are plenty of made in house food and snacks available
+  (including Edmonton's best carrot cake) as well as a wide range of espresso drinks
+  and craft beer.
+price: "$10.00*"
 layout: main
-# Hero
-hero_title: "Edmonton's best <span class='blue'>boardgame cafe</span>"
-hero_content: "Table Top cafe is special blend of coffee shop, board game library and retail store."
-
-shop_intro: "Looking for a game to take home?"
-
-# About
-about_title: "The perfect place to come together and get your game on"
-about_content: "One flat rate lets you play as many games as you like. Our staff on hand can help you pick the right game for your group and teach you how to play it. Many of the games are also available for sale giving you an excellent try-it-before-you-buy-it experience. The store is a comfortable place where people can meet with friends, play a game, share a drink, and connect face to face.
-"
-
-about_feature_1: "500+ Board Games"
-about_feature_1_content: "With everything from games for kids, to intense thematics and games with adult themes, our staff can help you choose the right game for your group and even teach a wide range of games to get you playing quickly."
-about_feature_2: "Games For Sale"
-about_feature_2_content: "If you like the game you are playing, there is a good chance we also have it for sale in our retail section and you can take it home with you right then!"
-about_feature_3: "Food & Drink"
-about_feature_3_content: "There are plenty of made in house food and snacks available (including Edmonton's best carrot cake) as well as a wide range of espresso drinks and craft beer."
-
-price: $10.00*
-
 ---
 
 <div id="mySidenav" class="sidenav">
