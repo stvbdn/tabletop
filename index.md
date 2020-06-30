@@ -4,6 +4,8 @@ layout: main
 hero_title: "Edmonton's best <span class='blue'>boardgame cafe</span>"
 hero_content: "Table Top cafe is special blend of coffee shop, board game library and retail store."
 
+shop_intro: "Looking for a game to take home?"
+
 # About
 about_title: "The perfect place to come together and get your game on"
 about_content: "One flat rate lets you play as many games as you like. Our staff on hand can help you pick the right game for your group and teach you how to play it. Many of the games are also available for sale giving you an excellent try-it-before-you-buy-it experience. The store is a comfortable place where people can meet with friends, play a game, share a drink, and connect face to face.
@@ -33,8 +35,13 @@ price: $10.00*
   <div class='hero-info' data-aos="fade-up">
     <h1 class="hero-title">{{ page.hero_title }}</h1>
     <p class="hero-content">{{ page.hero_content }}</p>
+    <!-- Reservation Widget -->
+    <div class="reservation-widget" style="display:inline-block">
+    <script id="dine_script_tag_booker" src="https://www.tbdine.com/inject/booker?format=1col&name=table-top-board-game-cafe&idApp=69092&force=true&language=en-us" type="text/javascript"></script></div>
+    <!-- End Reservation Widget -->
     <div class='hero-actions'>
-      <a href="#" class="btn reservations">Make a reservation</a>
+      <!-- <a href="#" class="btn reservations">Make a reservation</a> -->
+      <p class="shop-intro">{{ page.shop_intro }}</p>
       <a href="https://store.tabletopcafe.ca" class="btn-secondary">Shop online</a>
     </div>
   </div>

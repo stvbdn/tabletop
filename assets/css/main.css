@@ -228,6 +228,7 @@ label{
 .pricing-notes{
     font-size: 14px;
     font-weight: 300;
+    padding-bottom:20px;
 }
 .contact{
     /* max-width: 900px; */
@@ -350,6 +351,14 @@ input {
 }
 .pricing-description{
     max-width: 500px;
+    padding-bottom: 10px;
+}
+.reservation-widget{
+    padding-top:30px;
+    width: 75%;
+}
+.shop-intro{
+    padding-bottom: 10px;
 }
 
 @media only screen and (max-width: 920px) {
