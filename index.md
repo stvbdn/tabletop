@@ -144,7 +144,7 @@ layout: main
     </div>
     <div class="col">
       <div class='contact-form'>
-        <form action="https://getform.io/f/e64332e1-17cc-413c-8fe8-1085d7f35e7d" method="POST">
+        <form action="https://getform.io/f/72c84db1-6eeb-4482-9cdf-195b512eab56" method="POST">
           <h1 class="section-heading">Contact us</h1>
           <h1 class="section-title">We're here to help</h1>
           <div class="contact-info">

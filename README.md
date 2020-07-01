@@ -3,10 +3,10 @@
 ## Accounts
 (1) Siteleaf - CMS
 https://www.siteleaf.com/
-username:
-password:
+username: skbaden@gmail.com
+password: you know the one
 
 (2) GetForm - Contact
 https://getform.io
-username:
-password:
+username: brian@tabletopcafe.ca
+password: R@inbow642
