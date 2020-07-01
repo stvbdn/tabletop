@@ -281,6 +281,7 @@ textarea{
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 .map{
     /* max-width: 500px; */
