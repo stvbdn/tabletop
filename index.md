@@ -162,6 +162,7 @@ layout: main
           </div>
           <label for="message">Message</label>
           <textarea name="message"></textarea>
+          <input type="hidden" id="captchaResponse" name="g-recaptcha-response">
           <input class="btn" type="submit">
         </form>
       </div>
@@ -169,3 +170,12 @@ layout: main
 
   </div>
 </div>
+
+<script>
+   grecaptcha.ready(function() {
+       grecaptcha.execute('6Lcsz7UZAAAAABPJD7InAm-nofT3v0XFdqhPfZkN', {action: 'homepage'})
+       .then(function(token) {
+         document.getElementById('captchaResponse').value = token;
+       });
+     });
+</script>

@@ -21,6 +21,7 @@
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://www.google.com/recaptcha/api.js?render=6Lcsz7UZAAAAABPJD7InAm-nofT3v0XFdqhPfZkN"></script>
   </head>
 
 <body>
@@ -177,6 +178,7 @@
           </div>
           <label for="message">Message</label>
           <textarea name="message"></textarea>
+          <input type="hidden" id="captchaResponse" name="g-recaptcha-response" />
           <input class="btn" type="submit" />
         </form>
       </div>
@@ -184,6 +186,16 @@
 
   </div>
 </div>
+
+<script>
+   grecaptcha.ready(function() {
+       grecaptcha.execute('6Lcsz7UZAAAAABPJD7InAm-nofT3v0XFdqhPfZkN', {action: 'homepage'})
+       .then(function(token) {
+         document.getElementById('captchaResponse').value = token;
+       });
+     });
+</script>
+
 
   <footer>
   <div class="social">
