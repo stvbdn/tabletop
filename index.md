@@ -101,6 +101,7 @@ layout: main
         <div>
         <h1 class="feature-title">{{ page.about_feature_3 }}</h1>
         <p>{{ page.about_feature_3_content }}</p>
+        <p style='margin-top:5px;'><a href="#">View Menu</a></p>
         </div>
       </div>
     </div>
