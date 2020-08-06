@@ -56,7 +56,7 @@ layout: main
     <div class='col'>
       <div class='hero-info'>
         <h1 class="hero-title">You're favourite <span class="blue">coffee shop</span></h1>
-        <p class="hero-content">Table Top is special blend of coffee shop, board game library and retail store.</p>
+        <p class="hero-content">Table Top Cafe is special blend of coffee shop, board game library and retail store.</p>
         <div class='hero-actions'>
           <a href="#" class="btn reservations">Make a reservation</a>
           <a href="#" class="btn-secondary">Shop online</a>
