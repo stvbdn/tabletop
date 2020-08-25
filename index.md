@@ -1,7 +1,7 @@
 ---
 title: Home
 hero_title: Edmonton's original <span class='blue'>boardgame cafe</span>
-hero_content: Table Top cafe is special blend of coffee shop, board game library and
+hero_content: Table Top Cafe is special blend of coffee shop, board game library and
   retail store.
 shop_intro: Looking for a game to take home?
 about_title: The perfect place to come together and get your game on
