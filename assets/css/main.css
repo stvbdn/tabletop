@@ -412,6 +412,7 @@ input {
     max-width: 1504px;
     margin-left: 0px;
     margin-right: 0px;
+    padding-left: 0px;
   }
   .col {
     margin-bottom: 0px;
