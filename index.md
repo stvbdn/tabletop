@@ -149,7 +149,7 @@ layout: main
           <h1 class="section-heading">Contact us</h1>
           <h1 class="section-title">We're here to help</h1>
           <div class="contact-info">
-            <a class="contact-link" href="tel:587-524-5223">587-524-5223</a>
+            <a class="contact-link" href="tel:587-524-5323">587-524-5223</a>
             <a class="contact-link" href="mailto:brian@tabletopcafe.ca">brian@tabletopcafe.ca</a>
             <a class="contact-link">5716 75 Street NW, Edmonton</a>
           </div>
