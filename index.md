@@ -10,7 +10,7 @@ about_content: 'One flat rate lets you play as many games as you like. Our staff
   Many of the games are also available for sale giving you an excellent try-it-before-you-buy-it
   experience. The store is a comfortable place where people can meet with friends,
   play a game, share a drink, and connect face to face. '
-about_feature_1: 500+ Board Games
+about_feature_1: 600+ Board Games
 about_feature_1_content: 'With everything from party games to epic battles, for kids
   to adults and first dates to birthday parties, our staff can help you choose the
   right game for your group. '
@@ -126,10 +126,10 @@ layout: main
 
   <div class="hours">
     <h2 class="section-heading">Hours of Operation</h2>
-    <p class='hour-section'><span class='day'>Monday-Thursday:</span><span class="time">12:00PM - 11:00PM</span></p>
-    <p class='hour-section'><span class='day'>Friday:</span><span class="time">12:00PM - 1:00AM</span></p>
-    <p class='hour-section'><span class='day'>Saturday:</span><span class="time">11:00AM - 1:00AM</span></p>
-    <p class='hour-section'><span class='day'>Sunday:</span><span class="time">11:00AM - 11:00PM</span></p>
+    <p class='hour-section'><span class='day'>Monday-Thursday:</span><span class="time">12:00PM - 6:00PM</span></p>
+    <p class='hour-section'><span class='day'>Friday:</span><span class="time">12:00PM - 6:00PM</span></p>
+    <p class='hour-section'><span class='day'>Saturday:</span><span class="time">11:00AM - 5:00PM</span></p>
+    <p class='hour-section'><span class='day'>Sunday:</span><span class="time">11:00AM - 5:00PM</span></p>
   </div>
 </div>
 
