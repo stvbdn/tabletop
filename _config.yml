@@ -8,9 +8,9 @@ collections:
   uploads:
     title: Uploads
     output: true
-email: hello@tabletopcafe.com
+email: brian@tabletopcafe.ca
 description: Edmonton's premiere boardgame cafe.
-url: https://tabletopcafe.com/
+url: https://tabletopcafe.ca/
 baseurl: "/"
 markdown: kramdown
 permalink: pretty
